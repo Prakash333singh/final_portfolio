@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import cognizant from "./company/cognizant.jpg";
 import mit from "./company/mit.png";
-import carrent from "./carrent.png";
+//import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ghd from "./company/ghd.png";
@@ -35,7 +35,12 @@ import conestoga from "./company/conestoga.png";
 import bigboytoys from "./bigboytoys.png";
 import interacts from "./interacts.png";
 import CV_Duncan from "./CV_Duncan.png";
+import google_clone from "./google_clone.png";
+import carrent from "./carrent.jpg";
+import weather from "./weather.jpg";
 export {
+  weather,
+  google_clone,
   logo,
   CV_Duncan,
   backend,

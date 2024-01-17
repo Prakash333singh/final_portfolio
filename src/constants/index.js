@@ -22,8 +22,10 @@ import {
   ghd,
   conestoga,
   CV_Duncan,
+  google_clone,
+  weather,
+  carrent,
 } from "../assets";
-
 export const CVDuncan = CV_Duncan;
 
 export const navLinks = [
@@ -213,12 +215,42 @@ const myWords = [
 
 const projects = [
   {
-    name: "Google Clone",
+    name: "TravelTour",
     description:
-      "Replicated  Google Clone using Html,Tailwind,react, JavaScript to showcase my UI Skills.",
+      "This is Website made with the help of React and NodeJs. Here you can find different tour pacakages and booking for the same can be done with Jwt authentication.",
     tags: [
       {
-        name: "HTML",
+        name: "Mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React strap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+    ],
+    image: airpods,
+    source_code_link: "https://github.com/Prakash333singh/tour_mangement",
+    live_link: "https://travel-hub-ruddy.vercel.app/home",
+  },
+  {
+    name: "SortViz",
+    description:
+      "Integrated user controls to adjust array size speed of visualization, and algorithm selection for a customizable experience",
+    tags: [
+      {
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
@@ -230,39 +262,17 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "react",
+        name: "Soting Algorithms",
         color: "blue-text-gradient",
       },
       {
-        name: "Pagination",
+        name: "3d design",
         color: "green-text-gradient",
       },
     ],
-    image: airpods,
+    image: carrent,
     source_code_link: "https://github.com/Prakash333singh/Google__Clone__",
     live_link: "https://rapidapiadhikari1.netlify.app/",
-  },
-  {
-    name: "Neflix Clone",
-    description:
-      " Neflix Clone website to demonstrate Frontend Skills.This Website is Completely Responsive and contains Login,Sign in, and Logout Functionality",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind Css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bigboytoys,
-    source_code_link: "https://github.com/Prakash333singh/netflix_clone",
-    live_link: "https://adhikari2.netlify.app/",
   },
   {
     name: "Chat's App",
@@ -299,6 +309,7 @@ const projects = [
     source_code_link: "https://github.com/Prakash333singh/chatsApp_",
     live_link: "https://realtime-chat-application.netlify.app",
   },
+
   {
     name: "Google Clone",
     description:
@@ -325,69 +336,60 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: airpods,
+    image: google_clone,
     source_code_link: "https://github.com/Prakash333singh/Google__Clone__",
     live_link: "https://rapidapiadhikari1.netlify.app/",
   },
   {
-    name: "Google Clone",
+    name: "Neflix Clone",
     description:
-      "Replicated  Google Clone using Html,Tailwind,react, JavaScript to showcase my UI Skills.",
+      " Neflix Clone website to demonstrate Frontend Skills.This Website is Completely Responsive and contains Login,Sign in, and Logout Functionality",
     tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Taliwind Css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Pagination",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
+      {
+        name: "Tailwind Css",
+        color: "pink-text-gradient",
+      },
     ],
-    image: airpods,
-    source_code_link: "https://github.com/Prakash333singh/Google__Clone__",
-    live_link: "https://rapidapiadhikari1.netlify.app/",
+    image: bigboytoys,
+    source_code_link: "https://github.com/Prakash333singh/netflix_clone",
+    live_link: "https://adhikari2.netlify.app/",
   },
+
   {
-    name: "Google Clone",
+    name: "Weather App",
     description:
-      "Replicated  Google Clone using Html,Tailwind,react, JavaScript to showcase my UI Skills.",
+      "Replicated  weather using Html,css,weather,JavaScript to showcase my UI Skills.",
     tags: [
       {
         name: "HTML",
         color: "blue-text-gradient",
       },
-      {
-        name: "Taliwind Css",
-        color: "green-text-gradient",
-      },
+
       {
         name: "JavaScript",
         color: "pink-text-gradient",
       },
       {
-        name: "react",
+        name: "css",
         color: "blue-text-gradient",
       },
       {
-        name: "Pagination",
+        name: "Weather Api",
         color: "green-text-gradient",
       },
     ],
-    image: airpods,
-    source_code_link: "https://github.com/Prakash333singh/Google__Clone__",
-    live_link: "https://rapidapiadhikari1.netlify.app/",
+    image: weather,
+    source_code_link:
+      "https://github.com/Prakash333singh/Javascript_mini_projects/tree/main/whether%20App",
+    live_link: "https://weatheradhikari.netlify.app/",
   },
 ];
 
